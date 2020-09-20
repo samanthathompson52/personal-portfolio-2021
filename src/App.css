@@ -1,5 +1,9 @@
+
+
 .App {
   text-align: center;
+  background-color: #222222;
+  color: #D9D9D9;
 }
 
 .App-logo {
@@ -10,18 +14,229 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+  }}
+
+
+
+.App-landingtop {
+  min-height: 20vh;
+  display: flex;
+  font-family: canto-brush, serif;
+  text-align:left;
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  border-left: solid;
+  margin-top: 25vh;
+  margin-bottom: 30vh;
+  margin-left: 15vw;
+  /* border-bottom: solid; */
+  border-color: #A8C3C8;
+  border-width: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.About-Me {
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: right;
+  justify-content: right;
+  font-family: canto-brush, serif;
+  text-align:left;
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  margin-top: 35vh;
+  margin-left: 15vw;
+  margin-bottom: 20vh;
+  margin-right: 25vw;
+  border-right: solid;
+  background-color: #222222;
+  border-right-color: #A8C3C8;
+  border-width: 5px;
+
+}
+
+.App-footer{
+
+  background-color:#222222;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-content: right;
+  justify-content: right;
+  font-family: le-monde-livre-std, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #A8C3C8;  
+}
+
+.projects {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-content: right;
+  justify-content: right;
+  font-family: canto-brush, serif;
+  text-align:left;
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  margin-top: 35vh;
+  margin-left: 15vw;
+  padding-bottom: 20vh;
+  margin-right: 25vw;
+  background-color: #222222;
+}
+
+.navbar{
+  background-color: #222222;
+}
+
+h1{font-family: tenez;
+  font-weight: 400;
+  font-style: normal;
+  color: #A8C3C8;
+  font-size: 7rem;
+  margin: 0px;
+  }
+
+h2{ font-family: 'Public Sans', sans-serif;
+    color: #3C5C62;
+    font-size: 3rem
+    }
+
+  h3{
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #D9D9D9;
+    font-size: 1.4rem
+  }
+
+  h4{font-family: tenez;
+    font-weight: 400;
+    font-style: normal;
+    color: #A8C3C8;
+    font-size: 5rem;
+    margin: 0px;
+    }
+
+    h5{
+      font-family: open-sans, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: #D9D9D9;
+      font-size: 1.2rem
+    }
+
+    h6{font-family: 'Public Sans', sans-serif;
+      color: #3C5C62;
+      font-size: 2rem;
+      margin-top: 3vh;
+
+    }
+
+    h7{font-family: 'Public Sans', sans-serif;
+      color: #3C5C62;
+      font-size: 1.5rem;
+      align-content: right;
+      justify-content: right;
+    }
+
+
+  .btn-primary.raised {
+     box-shadow: 0 3px 0 0 #2F474B;
+  }
+
+  
+
+.btn-primary.raised:active, .btn-primary.raised.active {
+	background:#3C5C62;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: open-sans, sans-serif;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #3C5C62;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #537E86;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #3C5C62;
+    box-shadow: none;
+}
+
+
+
+
+.App-LandingImage{
+      display: flex;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.75)), url("./pictures/Background.png");
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .navbar {
+    color: #373535;
+    font-size: 1.5rem;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.navbar-bot {
+  font-size: 1.5rem;
+  font-family: open-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  justify-content: right;
+  align-content: right;
+  text-align: right;
+  align-items: right;
+  margin-right: 5vw;
+}
+
+.table-responsive{
+  width: 5vw;
+  justify-content: right;
+  align-content: right;
+  background-color: #3C5C62;
+  float:right;
+}
+
+
+@media only screen and (max-width: 600px) {
+  h1{font-size:1.2rem}
+  h2{font-size:.8rem}
+  h3{font-size:.4rem}
+  .App-landingtop{
+    margin-left: 5vw;
+    margin-top: 2vh;
+  }
 }
 
 .App-link {
