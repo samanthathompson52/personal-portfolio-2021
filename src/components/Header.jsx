@@ -1,5 +1,5 @@
 import React from 'react';
-import useScrollPosition from '@react-hook/window-scroll'
+import useScrollPosition from '@react-hook/window-scroll';
 
 const Header = () => {
   const scrollY = useScrollPosition()
@@ -13,9 +13,9 @@ const Header = () => {
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">About Me</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+        <a class="nav-link" href="#about">About Me</a>
+        <a class="nav-link" href="#project">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </div>
     </div>
   </nav>

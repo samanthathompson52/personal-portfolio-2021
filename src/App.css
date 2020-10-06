@@ -93,6 +93,12 @@
   background-color: #222222;
 }
 
+.vl {
+  height: 10rem;
+  border-right: 1vw;
+  border-color:  #A8C3C8; 
+}
+
 h1{font-family: tenez;
   font-weight: 400;
   font-style: normal;

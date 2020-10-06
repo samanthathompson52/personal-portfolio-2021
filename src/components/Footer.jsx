@@ -2,9 +2,9 @@ import React from 'react';
 import '../App.css';
 
 const Footer = () => {
-    return (
-      
-          <nav class="navbar-bot fixed-bottom navbar-dark">
+    return(
+    
+         <nav class="navbar-bot fixed-bottom navbar-dark">
             <div class ="ml-auto">
             <table class="table-responsive table-hover table-dark">
                 <thead>
@@ -32,7 +32,6 @@ const Footer = () => {
                 </table>
                 </div>
             </nav>         
-
     );
   }
   
