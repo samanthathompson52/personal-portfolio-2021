@@ -3,7 +3,8 @@ import '../App.css';
 
 const Home = () => {
   return (
- <div  >
+    
+ <div>
     <div className = "App-landingtop">
         <div className = "container-fluid">
           <div className = "p-4">   

@@ -4,9 +4,9 @@ import '../App.css';
 const Footer = () => {
     return(
     
-         <nav class="navbar-bot fixed-bottom navbar-dark">
+         <nav class="navbar-bot fixed-bottom">
             <div class ="ml-auto">
-            <table class="table-responsive table-hover table-dark">
+            <table class="table-responsive">
                 <thead>
                     <tr>
                     <th scope="col"></th>

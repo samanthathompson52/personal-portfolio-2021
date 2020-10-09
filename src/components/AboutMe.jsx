@@ -21,6 +21,7 @@ const AboutMe = () => {
                   <h5> It has become my passion to combine my knowledge of biology and computer science to create advancements to healthcare and science. Even after graduation, I am actively improving my own knowledge of programming.</h5>
                   <div className = "py-4"> 
                     <button type="button" href = "#" class="btn btn-primary raised btn-block">Resume</button>
+                    <a name = 'project'></a>
                   </div>
                 </div> 
               </div>

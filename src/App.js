@@ -6,6 +6,7 @@ import Footer from './components/Footer.jsx';
 import Projects from './components/Projects.jsx';
 import Home from './components/Home.jsx';
 import AboutMe from './components/AboutMe.jsx';
+import Contact from './components/Contact.jsx';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Home></Home>
       <AboutMe></AboutMe>
       <Projects></Projects>
+      <Contact></Contact>
       
       
   
