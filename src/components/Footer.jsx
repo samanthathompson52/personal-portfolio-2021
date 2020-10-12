@@ -1,12 +1,12 @@
 import React from 'react';
-import '../App.css';
+import '../styles/App.css';
 
 const Footer = () => {
     return(
     
-         <nav class="navbar-bot fixed-bottom">
+         <nav className="navbar-bot fixed-bottom">
             <div class ="ml-auto">
-            <table class="table-responsive">
+            <table className="table-responsive">
                 <thead>
                     <tr>
                     <th scope="col"></th>

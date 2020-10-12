@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../styles/App.css';
 import mail from '../pictures/mail.png'
 import phone from '../pictures/phone.png'
 
@@ -10,9 +10,9 @@ const Home = () => {
         <div className = "container-fluid"> 
           <div> 
             <h4>Contact Me</h4>
-            <h6>Let's Talk!</h6>
+            <h7>Let's Talk!</h7>
             <div class = "container-flex">
-            <table class="table-borderless">
+            <table className="table-borderless">
                 <tbody>
                     <tr>
                     <th scope="row"></th>
