@@ -3,7 +3,7 @@ import './styles/App.css';
 import './styles/Fonts.css';
 import './styles/Loader.css';
 import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
+import Links from './components/Links.jsx';
 import Projects from './components/Projects.jsx';
 import Home from './components/Home.jsx';
 import AboutMe from './components/AboutMe.jsx';
@@ -24,12 +24,13 @@ function App() {
     <div className={Loading ? 'App overflow-hidden' : 'App'}>
       <Loader Loading={Loading} />
       <Header />
-      <Footer />
+      <Links />
       <Home />
       <AboutMe />
       <Projects />
       <Experience />
       <Contact />
+      
       
     </div>
   );
