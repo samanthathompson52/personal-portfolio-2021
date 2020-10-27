@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
+import '../styles/Projects.css';
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
       <h4>Projects</h4>
        <div className = "row">
       <div className="col-sm-8"> 
-        <h6 className = 'w-100'>Twitch Community Discord Bot <span className = 'w-100'></span></h6>
+        <h6 className = 'w-100 abc'>Twitch Community Discord Bot</h6>
          <h5>Created a custom discord bot using Python that serves as a functional management and entertainment tool for over 200 people.</h5>
       </div>
       <div className="col-sm-4"> 

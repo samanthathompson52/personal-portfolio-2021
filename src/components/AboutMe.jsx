@@ -12,7 +12,7 @@ const AboutMe = () => {
           <div className="col-sm-3"> 
             <div className = "py-4">   
             <br></br>        
-              <img src = {profile} border = "8px solid black" alt="Picture of me"></img></div></div> 
+              <img src = {profile} border = "8px solid black" className="w-100" alt="Picture of me"></img></div></div> 
               <div className="col-sm-9">
                 <div className = "p-4">  
                   <h4>About Me</h4>
