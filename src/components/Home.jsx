@@ -1,14 +1,13 @@
 import React from 'react';
-import '../styles/App.css';
+import '../styles/Home.css';
 
 import Container from 'react-bootstrap/Container'
-
 
 const Home = () => {
   return (
     
  <div>
-    <div className = "App-landingtop">
+    <div className = "landing-page">
         <Container fluid>
           <div className = "p-4">   
             <h1>Samantha Thompson</h1>
