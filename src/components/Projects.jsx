@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/App.css';
 import '../styles/Projects.css';
 
 import Container from 'react-bootstrap/Container'

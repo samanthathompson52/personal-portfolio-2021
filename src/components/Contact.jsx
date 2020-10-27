@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/App.css';
 import mail from '../pictures/mail.png'
 import phone from '../pictures/phone.png'
 import Container from 'react-bootstrap/Container'
