@@ -57,6 +57,21 @@
 	font-style: normal;
 }
 
+.dotted-line {
+	width: 200px;
+	display : flex;
+}  
+
+.dot {
+	flex: 1;
+	border-bottom: 1px dotted #3C5C62;
+	border-bottom-width: 7px;
+	margin-top: 20px;
+	content: '';
+	margin-left: 1rem;
+	height: 1px;
+}
+
 .btn-primary.raised {
 	box-shadow: 0 3px 0 0 #2F474B;
 }
