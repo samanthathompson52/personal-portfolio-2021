@@ -12,7 +12,7 @@ import Loader from './components/Loader.jsx';
 import Experience from './components/Experience.jsx';
 import Footer from './components/Footer.jsx';
 
-function App() {
+const App = () => {
   const [Loading, setLoading] = useState(true);
   
   setTimeout(()=>{
@@ -23,6 +23,7 @@ function App() {
   return (
     
     <div className={Loading ? 'App overflow-hidden' : 'App'}>
+      
       <Loader Loading={Loading} />
       <Header />
       <Links />

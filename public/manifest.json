@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Samantha Thompson",
+  "name": "Samantha Thompson Website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,15 +21,8 @@
       "src": "logo75.png",
       "type": "image/png",
       "sizes": "75x75"
-    },
-    {
-      "src": "S1000.png",
-      "sizes": "500x500",
-      "type": "image/png"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "standalone"
 }
