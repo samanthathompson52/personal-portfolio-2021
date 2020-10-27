@@ -1,13 +1,14 @@
-.abc {
-    display: flex;
-    align-items: center;
-  }
-  
-  .abc::after {
-    margin-top: 5px;
-    content: '';
-    flex: 1;
-    margin-left: 1rem;
-    height: 1px;
-    background-color: #000;
-  }
+.dotted-line{
+  width: 200px;
+  display : flex;
+}  
+
+.dot{
+  flex: 1;
+  border-bottom: 1px dotted #3C5C62;
+  border-bottom-width: 7px;
+  margin-top: 20px;
+  content: '';
+  margin-left: 1rem;
+  height: 1px;
+}

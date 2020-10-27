@@ -2,37 +2,34 @@ import React from 'react';
 import '../styles/App.css';
 import mail from '../pictures/mail.png'
 import phone from '../pictures/phone.png'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const Home = () => {
   return (
- <div  >   
-    <div className = "contact">
-        <div className = "container-fluid"> 
-          <div> 
+    <div className = "section">
+        <Container fluid> 
+          <div className="text-left"> 
             <h4>Contact Me</h4>
-            <h7>Let's Talk!</h7>
-            <div class = "container-flex">
-            <table className="table-borderless">
-                <tbody>
-                    <tr>
-                    <th scope="row"></th>
-                    <td><img src = {mail}></img></td>
-                    <td>SamanthaThompson521@gmail.com</td>
-                    </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    <td><img src = {phone}></img></td>
-                    <td>1-219-617-6266</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <a name = 'contact'></a>
-                
-                </div>
-            </div>
+            <h6>Let's Talk!</h6>
+            <Container fluid>
+              <Row>
+                <Col xs={12} className="d-flex align-items-center">
+                  <img src={mail} alt="mail"></img>
+                  <h5>SamanthaThompson521 @gmail.com</h5>
+                </Col>
+              </Row>
+              <Row>
+                <Col xs={12} className="d-flex align-items-center">
+                  <img src = {phone} alt="phone"></img>
+                  <h5>1-219-617-6266</h5>
+                </Col>
+              </Row>
+            </Container>
+            <span id = 'contact'></span>
           </div>
-        </div>
+        </Container>
     </div>
   );
 }

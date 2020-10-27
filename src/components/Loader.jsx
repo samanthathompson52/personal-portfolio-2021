@@ -6,7 +6,7 @@ const Loader = ({Loading}) => {
     return (
     <div className = {Loading ? 'loader' : 'loader finish'}>
         <div className = 'logo'>
-          <img src = ".//logo512.png"></img>
+          <img src = "./logo512.png" alt="loader"></img>
         </div>
 
     </div>);

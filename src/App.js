@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './styles/App.css';
+import './styles/Fonts.css';
 import './styles/Loader.css';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
@@ -15,7 +15,7 @@ function App() {
   
   setTimeout(()=>{
     setLoading(false);
-  }, 2000
+  }, 1
   );
   
   return (

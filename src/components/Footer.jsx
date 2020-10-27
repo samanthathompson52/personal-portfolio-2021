@@ -1,37 +1,26 @@
 import React from 'react';
-import '../styles/App.css';
+import '../styles/Footer.css';
+import email from '../pictures/gmail.svg'
+import linkedin from '../pictures/linkedin.svg'
+import github from '../pictures/github.svg'
+
+import Navbar from 'react-bootstrap/Navbar'
 
 const Footer = () => {
     return(
-    
-         <nav className="navbar-bot fixed-bottom">
-            <div class ="ml-auto">
-            <table className="table-responsive">
-                <thead>
-                    <tr>
-                    <th scope="col"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <th scope="row">Email</th>
-                    </tr>
-                    <tr>
-                    <th scope="row">LinkedIn</th>
-                    </tr>
-                    <tr>
-                    <th scope="row">Github</th>
-                    </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    </tr>
-                    <tr>
-                    <th scope="row"> </th>
-                    </tr>
-                </tbody>
-                </table>
+        <Navbar fixed="bottom" className="navbar-bot d-none d-lg-flex">
+            <div className ="ml-auto text-left">
+                <div className="py-2">
+                    <a href="mailto:samanthaThompson521@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email} width="40em" height="40em" alt="Email social media icon" /></a>
                 </div>
-            </nav>         
+                <div className="py-2">
+                    <a href="mailto:samanthaThompson521@gmail.com" target="_blank" rel="noopener noreferrer"><img src={linkedin} width="40em" height="40em" alt="Email social media icon" /></a>
+                </div>
+                <div className="py-2">
+                    <a href="mailto:samanthaThompson521@gmail.com" target="_blank" rel="noopener noreferrer"><img src={github} width="40em" height="40em" alt="Email social media icon" /></a>
+                </div>
+            </div>
+        </Navbar>   
     );
   }
   
