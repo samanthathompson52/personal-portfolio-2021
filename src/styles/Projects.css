@@ -1,9 +1,9 @@
-.dotted-line{
+.dotted-line {
   width: 200px;
   display : flex;
 }  
 
-.dot{
+.dot {
   flex: 1;
   border-bottom: 1px dotted #3C5C62;
   border-bottom-width: 7px;

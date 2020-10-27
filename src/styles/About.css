@@ -1,7 +1,7 @@
 .about-me {
 	min-height: 20vh;
 	padding-top: 15vh;
-	padding-bottom:15vh;
+	padding-bottom: 15vh;
 	margin-right: 20vw;
 	margin-left: 15vw;
 }
@@ -20,30 +20,23 @@
 	}
 }
 
-
-.border-line{
-  border-right: solid 5px #A8C3C8;
+.border-line {
+	border-right: solid 5px #A8C3C8;
 }
 
 .bg-image {
-  /* image specified in separate class below */
-  border:  solid 5px #A8C3C8;
-  height: 100% !important; 
-  width: 100% !important;
+	border: solid 5px #A8C3C8;
+	height: 100% !important;
+	width: 100% !important;
 }
-  
+
 .bg-image-wedding {
-    background-image: url('../pictures/profile.png');
+	background-image: url('../pictures/profile.png');
 
-    /* lt ie8 */
-    -ms-background-position-x: center;
-    -ms-background-position-y: bottom;
-    background-position: center bottom;
+  -ms-background-position-x: center;
+	-ms-background-position-y: bottom;
+	background-position: center bottom;
 
-    /* scale bg image proportionately */
-    background-size: cover;
-
-    /* prevent scaling past src width (or not) */
-    /* max-width: 1200px; */
+  background-size: cover;
+	max-width: 1200px;
 }
-  

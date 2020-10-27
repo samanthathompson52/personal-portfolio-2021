@@ -1,33 +1,32 @@
-
-.loader{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    background: #222222;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease;
-    z-index:999999;
-  }
-
-  .loader.finish{
-    opacity: 0;
-    transition: opacity 0.5s;
-    pointer-events: none;
-  }
-
-.logo{
-  animation: logo 5s infinite;
+.loader {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background: #222222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s ease;
+	z-index: 999999;
 }
 
-@keyframes logo{
-  from{
-      transform: translateY(-50px);
-  }
-  to{
-      transform: translateY(0px);
-  }
+.loader.finish {
+	opacity: 0;
+	transition: opacity 0.5s;
+	pointer-events: none;
+}
+
+.logo {
+	animation: logo 5s infinite;
+}
+
+@keyframes logo {
+	from {
+		transform: translateY(-100px);
+	}
+	to {
+		transform: translateY(0px);
+	}
 }
