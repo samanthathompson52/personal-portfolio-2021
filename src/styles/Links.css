@@ -1,4 +1,19 @@
 .navbar-bot {
     background: none;
-    margin-right: 2.5vw;
+    margin-right: 1vw;
 }
+
+.icon{
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  
+  .icon:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }

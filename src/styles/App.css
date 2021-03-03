@@ -92,27 +92,15 @@
 	font-family: open-sans, sans-serif;
 }
 
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus {
-	outline: 0 none;
-}
-
 .btn-primary {
 	background: #3C5C62;
 	color: #ffffff;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
+.btn-primary:hover{
 	background: #537E86;
 }
 
-.btn-primary:active,
-.btn-primary.active {
-	background: #3C5C62;
-	box-shadow: none;
+a:hover{
+	text-decoration: none;
 }
