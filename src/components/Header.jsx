@@ -15,6 +15,7 @@ const Header = () => {
         <a className="nav-link active" href="/#">Home <span className="sr-only">(current)</span></a>
         <a className="nav-link" href="#about">About Me</a>
         <a className="nav-link" href="#project">Projects</a>
+        <a className="nav-link" href="#experience">Experience</a>
         <a className="nav-link" href="#contact">Contact</a>
       </div>
     </div>

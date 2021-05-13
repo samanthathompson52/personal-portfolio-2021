@@ -1,7 +1,7 @@
 .click {
     min-width: 100px;
     width: 100%;
-    background-color: Transparent ;
+    background-color: transparent ;
     background-repeat: no-repeat;
     text-align: left !important;
     border-color: gray;
@@ -29,7 +29,8 @@
 
 .selected {
     border-color: aqua !important;
-    color: aqua !important;
+    color:#A8C3C8 !important;
+    background-color: #171717;
 }
 
 .header {
@@ -46,6 +47,7 @@
     background-color: #000;
   }
 
+ 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {

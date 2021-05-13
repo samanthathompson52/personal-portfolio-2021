@@ -15,7 +15,7 @@ const Experience = () => {
     return (
       <div key={elm.id} className={className}>
         <button type="button" className="btn click" onClick={() => { setSelected(elm); }}>
-          <span>{elm.company}</span>
+          <span>{elm.position}</span>
         </button>
       </div>
     );
@@ -39,11 +39,11 @@ const Experience = () => {
           </Col>
           <Col md={8} lg={9} className="py-2">
             <h4>
-              <span>{selected.company}</span>
+              <span>{selected.position}</span>
               {' '}
               -
               {' '}
-              <span>{selected.position}</span>
+              <span>{selected.company}</span>
             </h4>
             <p>{selected.dates}</p>
             <div>
