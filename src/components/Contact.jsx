@@ -11,18 +11,18 @@ const Home = () => {
         <Container fluid> 
           <div className="text-left"> 
             <h4>Contact Me</h4>
-            <h6>Let's Talk!</h6>
+            <h8>Let's Talk!</h8>
             <Container fluid>
               <Row>
                 <Col xs={12} className="d-flex align-items-center">
                   <img src={mail} alt="mail"></img>
-                  <h5>SamanthaThompson521 @gmail.com</h5>
+                  <h5>SamanthaThompson521@gmail.com</h5>
                 </Col>
               </Row>
               <Row>
                 <Col xs={12} className="d-flex align-items-center">
                   <img src = {phone} alt="phone"></img>
-                  <h5>1-219-617-6266</h5>
+                  <h5>(219) 617-6266</h5>
                 </Col>
               </Row>
             </Container>

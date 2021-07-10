@@ -29,8 +29,8 @@ const Experience = () => {
 
   return (
     <div id="experience" className="break mx-2 section">
-      <Container fluid="md" className="test">
-        <h2 className="mb-4 w-100 dotted-line">Experience<span className="dot"></span></h2>
+      <Container fluid="md" className="section">
+        <h4 className="mb-4 w-100 dotted-line">Experience</h4>
         <Row>
           <Col md={4} lg={3} className="py-2">
             <div className="buttonContainer">
@@ -38,17 +38,18 @@ const Experience = () => {
             </div>
           </Col>
           <Col md={8} lg={9} className="py-2">
-            <h4>
+            <h6>
               <span>{selected.position}</span>
               {' '}
               -
               {' '}
               <span>{selected.company}</span>
-            </h4>
+            </h6>
             <p>{selected.dates}</p>
             <div>
-              <ul>
+              <ul><h5>
                 {workBullets}
+                </h5>
               </ul>
             </div>
           </Col>
