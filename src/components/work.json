@@ -1,6 +1,6 @@
 [
     {
-        "id":4,
+        "id":3,
         "company":"Purdue University",
         "position":"Research Assistant",
         "dates":"May 2018 to May 2019",
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "id":3,
+        "id":2,
         "company":"Purdue University",
         "position":"Student Office Staff",
         "dates":"July 2018 to April 2020",
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "id":2,
+        "id":1,
         "company":"Purdue University",
         "position":"Summer Office Coordinator",
         "dates":"April 2019 to August 2019",
@@ -32,7 +32,7 @@
     },
   
     {
-        "id":1,
+        "id": 4,
         "company":"Getz Investigations",
         "position":"Private Detective Assistant",
         "dates":"November 2015 to Jan 2018; November 2020 to Present",

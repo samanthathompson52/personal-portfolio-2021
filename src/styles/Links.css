@@ -1,6 +1,7 @@
 .navbar-bot {
     background: none;
     margin-right: 1vw;
+    z-index: 0;
 }
 
 .icon{
