@@ -38,13 +38,13 @@ const Experience = () => {
             </div>
           </Col>
           <Col md={8} lg={9} className="py-2">
-            <h6>
+            <h9>
               <span>{selected.position}</span>
               {' '}
               -
               {' '}
               <span>{selected.company}</span>
-            </h6>
+            </h9>
             <p>{selected.dates}</p>
             <div>
               <ul><h5>

@@ -45,6 +45,8 @@ h6 {
 	margin-top: 3vh;
 }
 
+
+
 h7{
 	font-family: open-sans, sans-serif;
 	font-weight: 300;
@@ -62,6 +64,12 @@ h8 {
 	font-size: 2rem;
 	margin-top: 1vh;
 	margin-left:1vh;
+}
+
+h9 {
+	font-family: 'Public Sans', sans-serif;
+	color: #3C5C62;
+	font-size: 2rem;
 }
 
 @media only screen and (max-width: 600px) {

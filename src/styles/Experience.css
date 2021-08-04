@@ -24,7 +24,6 @@
 .click:hover {
     border-color: aqua !important;
     background-color: #547778 !important;
-    color: aqua !important;
 }
 
 .selected {
@@ -39,7 +38,7 @@
   }
   
   .header::after {
-    margin-top: 5px;
+    margin-top: 0px;
     content: '';
     flex: 1;
     margin-left: 1rem;
