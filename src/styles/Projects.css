@@ -1,1 +1,33 @@
 
+.project-files{
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.project-files:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    filter:brightness(1.1);
+      
+}
+
+.ul{
+    font-family: 'Public Sans', sans-serif;
+	color: #3C5C62;
+	font-size: 2rem;
+    display: inline;
+}
+
+.li{
+    padding-right: 5vw;
+    padding-top: 2vh;
+    color: #3C5C62;
+    font-size: 1.2rem;
+}
+
+
+

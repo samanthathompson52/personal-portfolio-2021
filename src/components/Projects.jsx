@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Projects.css';
-import discord from '../pictures/discord_bot.png';
+import discord from '../pictures/discord-twitch-bot.png';
 
 import Container from 'react-bootstrap/Container'
 
@@ -13,16 +13,22 @@ const Projects = () => {
        <div className = "row">
       <div className="col-sm-8"> 
         <h6 className = 'w-100 dotted-line'>Twitch Community Discord Bot<span className="dot"></span></h6>
-         <h5>Created a custom discord bot using Python that serves as a functional management and entertainment tool for over 300 people. </h5>
+         <h5>Created a custom discord bot that serves as a management and entertainment tool for over 300 people in a Twitch community. Features include automatic role assigment, queue system, custom welcome messages, and role assigment based upon user reactions.  </h5>
+         <div className = 'tech-list'>
+         <ul className="list-inline ul">
+           <li className="list-inline-item li">Python</li>
+           <li className="list-inline-item li">Discord API</li>
+           </ul>
+           </div>
       </div>
       <div className="col-sm-4"> 
-      
-       <img src = {discord} alt="Twitch Discord Bot" ></img>
+        <div className = "project-files">
+           <a href="https://github.com/samanthathompson52/discord-bot" target="_blank" rel="noopener noreferrer"><img src={discord} width = "80%" alt="Link to Twitch Discord Bot project file" /></a>
+        </div>  
 
       </div>
       </div>
      </Container>
-     <span id='experience'></span>
     </div>
 
   );

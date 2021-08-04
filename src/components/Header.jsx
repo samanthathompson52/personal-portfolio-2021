@@ -1,5 +1,6 @@
 import React from 'react';
 import useScrollPosition from '@react-hook/window-scroll';
+import Nav from 'react-bootstrap/Nav';
 
 const Header = () => {
   const scrollY = useScrollPosition()
@@ -12,11 +13,11 @@ const Header = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" href="/#">Home <span className="sr-only">(current)</span></a>
-        <a className="nav-link" href="#about">About Me</a>
-        <a className="nav-link" href="#project">Projects</a>
-        <a className="nav-link" href="#experience">Experience</a>
-        <a className="nav-link" href="#contact">Contact</a>
+        <Nav.Link href="/#">Home</Nav.Link>
+        <Nav.Link href="#about">About Me</Nav.Link>
+        <Nav.Link href="#project">Projects</Nav.Link>
+        <Nav.Link href="#experience">Experience</Nav.Link>
+        <Nav.Link href="#contact">Contact</Nav.Link>
       </div>
     </div>
   </nav>
