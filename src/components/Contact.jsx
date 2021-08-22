@@ -21,7 +21,7 @@ const Home = () => {
               </Row>
               <Row>
                 <Col xs={12} className="d-flex align-items-center">
-                  <img src = {phone} alt="phone"></img>
+                  <img src = {phone} alt="playground"></img>
                   <h5>(219) 617-6266</h5>
                 </Col>
               </Row>
