@@ -1,5 +1,28 @@
 [
     {
+        "id": 1,
+        "company":"Getz Investigations",
+        "position":"Private Detective Assistant",
+        "dates":"November 2015 to Jan 2018; November 2020 to Present",
+        "description":[
+            "Conducted background checks, asset searches, analyzed surveillance videos, created invoices, mailed invoices to clients, and handled emails to ensure the office runs smoothly",
+            "Located and analyzed confidential information such as social security numbers, address history, and past criminal behavior to be used on the court of law.",
+            "Improved office production by creating new forms and documents using Microsoft Word and Excel."
+        ]
+    },
+    {
+        "id": 2,
+        "company":"Twitch",
+        "position":"Live Streamer",
+        "dates":"March 2020 to present",
+        "description":[
+           "Marketed my channel increasing followers from 100 to 1,250 over six months",
+           "Created a welcoming community that promotes a safe space for people to enjoy video games",
+           "Delivered content multiple times a week gaining over 42,000 channel views",
+           "Designed custom overlays and graphics using Adobe Creative Studio"
+        ]
+    },
+    {
         "id":3,
         "company":"Purdue University",
         "position":"Research Assistant",
@@ -11,7 +34,7 @@
         ]
     },
     {
-        "id":2,
+        "id":4,
         "company":"Purdue University",
         "position":"Student Office Staff",
         "dates":"July 2018 to April 2020",
@@ -21,7 +44,7 @@
         ]
     },
     {
-        "id":1,
+        "id":5,
         "company":"Purdue University",
         "position":"Summer Office Coordinator",
         "dates":"April 2019 to August 2019",
@@ -29,17 +52,6 @@
             "Scheduled and organized 25 student office staff for staffing the front desk of three residential buildings at Purdue University.",
             "Created mail systems for conference members that visited Purdue during the summer as well as organized the daily office activities."
         ]
-    },
-  
-    {
-        "id": 4,
-        "company":"Getz Investigations",
-        "position":"Private Detective Assistant",
-        "dates":"November 2015 to Jan 2018; November 2020 to Present",
-        "description":[
-            "Conducted background checks, asset searches, analyzed surveillance videos, created invoices, mailed invoices to clients, and handled emails to ensure the office runs smoothly",
-            "Located and analyzed confidential information such as social security numbers, address history, and past criminal behavior to be used on the court of law.",
-            "Improved office production by creating new forms and documents using Microsoft Word and Excel."
-        ]
     }
+ 
 ]

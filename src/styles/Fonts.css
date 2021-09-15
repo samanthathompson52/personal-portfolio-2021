@@ -36,6 +36,8 @@ h5 {
 	color: #D9D9D9;
 	font-size: 1.4rem;
 	margin: 0px;
+	text-align: left;
+	padding-bottom: 2vh;
 }
 
 h6 {
@@ -69,7 +71,16 @@ h8 {
 h9 {
 	font-family: 'Public Sans', sans-serif;
 	color: #3C5C62;
-	font-size: 2rem;
+	font-size: 2.3rem;
+	text-align: left;
+}
+
+p{
+	font-family: open-sans, sans-serif;
+	color: #3C5C62;
+	font-weight: 500;
+	font-style: italic;
+	opacity: 100%;
 }
 
 
@@ -84,14 +95,25 @@ h9 {
 		font-size: 1.2rem
     }
     h4 {
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
     h5 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     h6 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
+
+	h7{
+		font-size: .7rem;
+	}
+
+	h8{
+		font-size: 1.5rem;
+	}
+	h9{
+		font-size: 1.5rem;
+	}
 }
 
 
