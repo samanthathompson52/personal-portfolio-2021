@@ -122,3 +122,21 @@
 a:hover{
 	text-decoration: none;
 }
+
+.footer{
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #D9D9D9;
+	font-size: 1.0rem;
+	padding: 0;
+	margin: 0;
+	opacity: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+.footer{
+	font-size: .8rem;
+}
+
+}

@@ -1,3 +1,4 @@
+
 h1 {
 	font-family: tenez;
 	font-weight: 400;
@@ -48,61 +49,6 @@ h6 {
 
 
 
-h7{
-	font-family: open-sans, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	color: #D9D9D9;
-	font-size: 1.0rem;
-	padding: 0;
-	margin: 0;
-	opacity: 70%;
-}
-
-h8 {
-	font-family: 'Public Sans', sans-serif;
-	color: #526d72;
-	font-size: 2rem;
-	margin-top: 1vh;
-	margin-left:1vh;
-}
-
-h9 {
-	font-family: 'Public Sans', sans-serif;
-	color: #526d72;
-	font-size: 2.3rem;
-	text-align: left;
-}
-
-h10{
-	font-family: 'Public Sans', sans-serif;
-	color: #526d72;
-	font-size: 1rem;
-	padding-bottom: 5vh;
-	font-weight: 400;
-	letter-spacing: 2px;
-}
-
-h11{
-	font-family: 'Public Sans', sans-serif;
-	color: #526d72;
-	writing-mode: vertical-lr;
-	text-orientation:sideways !important;
-	font-size: 1.5rem;
-	padding-bottom: 5vh;
-	font-weight: 500;
-	letter-spacing: 6px;
-}
-
-p{
-	font-family: open-sans, sans-serif;
-	color: #526d72;
-	font-weight: 500;
-	font-style: italic;
-	opacity: 100%;
-}
-
-
 @media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 3.4rem
@@ -123,16 +69,6 @@ p{
         font-size: 1.5rem;
     }
 
-	h7{
-		font-size: .7rem;
-	}
-
-	h8{
-		font-size: 1.5rem;
-	}
-	h9{
-		font-size: 1.5rem;
-	}
 }
 
 
@@ -155,7 +91,5 @@ p{
     h6 {
         font-size: 2rem;
     }
-	h9{
-		font-size: 1.8rem;
-	}
+
 }

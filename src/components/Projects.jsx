@@ -4,7 +4,6 @@ import discord from '../pictures/discord-twitch-bot.png';
 import pediatrics from '../pictures/pediatrics.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import Container from 'react-bootstrap/Container'
 
 const Projects = () => {

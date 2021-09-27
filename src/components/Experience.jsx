@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import work from './work.json';
-
 import '../styles/Experience.css';
 
 const Experience = () => {
@@ -38,14 +36,15 @@ const Experience = () => {
             </div>
           </Col>
           <Col md={8} className="py-2">
-            <h9>
-              <span>{selected.position}</span>
-              {' '}
-              -
-              {' '}
-              <span>{selected.company}</span>
-            </h9>
-            <p>{selected.dates}</p>
+           
+              <span className = "experience">{selected.position}</span>
+              
+              <span className ="experience">
+                 {' '}
+               -
+                {' '}{selected.company}</span>
+        
+            <div className = "dates">{selected.dates}</div>
             <div>
               <ul><h5>
                 {workBullets}

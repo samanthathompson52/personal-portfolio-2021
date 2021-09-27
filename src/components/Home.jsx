@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Home.css';
-
 import Container from 'react-bootstrap/Container'
 
 const Home = () => {

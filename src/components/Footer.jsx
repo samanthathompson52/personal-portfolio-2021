@@ -9,7 +9,9 @@ const Footer = () => {
     return(
         <div className="App-footer">
             <Container className = "d-lg-none">
-                <h10>CONTACT ME</h10>
+                <div className = "contact-mobile">
+                CONTACT ME
+                </div>
             <Row className = "justify-content-center" >
                 <a href="mailto:samanthaThompson521@gmail.com" className = "links" target="_blank" rel="noopener noreferrer"><img src={email} width="30em" height="30em" alt="Email social media icon" /></a>
          
@@ -18,8 +20,9 @@ const Footer = () => {
                 <a href="https://github.com/samanthathompson52" className = "links" target="_blank" rel="noopener noreferrer"><img src={github} width="30em" height="30em" alt="Github social media icon" /></a>
            </Row> 
            </Container>
-        <h7>Designed and Created by Samantha Thompson</h7>
-       
+        <div className = "footer">
+            Designed and Created by Samantha Thompson
+        </div>
         </div>
     );
   }

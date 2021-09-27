@@ -44,7 +44,24 @@
     padding-top: 1rem;
     animation: border 3s linear infinite;
     display: inline-block;
+    writing-mode: vertical-lr;
+	  text-orientation:sideways !important;
+    font-family: 'Public Sans', sans-serif;
+    color: #526d72;
+    font-size: 1.5rem;
+    padding-bottom: 5vh;
+    font-weight: 500;
+    letter-spacing: 6px;
   }
+
+.contact-mobile{
+  font-family: 'Public Sans', sans-serif;
+	color: #526d72;
+	font-size: 1rem;
+	padding-bottom: .8vh;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
 
   @keyframes border{
     0%{
