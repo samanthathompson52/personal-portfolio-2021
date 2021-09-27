@@ -15,16 +15,23 @@
 	border-width: 5px;
 }
 
+@media only screen and (max-width: 1440px) {
+	.landing-page {
+    	margin-left: 7.5vw;
+		margin-top: 20vh;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.landing-page {
-    margin-left: 7.5vw;
-		margin-top: 8vh;
+    	margin-left: 7.5vw;
+		margin-top: 15vh;
 	}
 }
 
 @media only screen and (max-width: 600px) {
 	.landing-page {
-    margin-left: 2.5vw;
+    	margin-left: 2.5vw;
 		margin-right: 2.5vw;
 		margin-top: 8vh;
 	}

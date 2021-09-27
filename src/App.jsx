@@ -7,10 +7,11 @@ import Links from './components/Links.jsx';
 import Projects from './components/Projects.jsx';
 import Home from './components/Home.jsx';
 import AboutMe from './components/AboutMe.jsx';
-import Contact from './components/Contact.jsx';
 import Loader from './components/Loader.jsx';
 import Experience from './components/Experience.jsx';
 import Footer from './components/Footer.jsx';
+
+// import Contact from './components/Contact.jsx';
 
 const App = () => {
   const [Loading, setLoading] = useState(true);
@@ -31,7 +32,7 @@ const App = () => {
       <AboutMe />
       <Projects />
       <Experience />
-      <Contact />
+      {/* <Contact />  */}
       <Footer />
       
     </div>

@@ -28,8 +28,8 @@ const Experience = () => {
   ));
 
   return (
-    <div id="experience" className="break mx-2 section">
-      <Container fluid="md" className="section">
+    <div id="experience" className="break section">
+      <Container fluid>
         <h4 className="mb-4 w-100 dotted-line">Experience</h4>
         <Row>
           <Col md={4} lg={3} className="py-2">
@@ -37,7 +37,7 @@ const Experience = () => {
               {workList}
             </div>
           </Col>
-          <Col md={8} lg={9} className="py-2">
+          <Col md={8} className="py-2">
             <h9>
               <span>{selected.position}</span>
               {' '}

@@ -6,9 +6,16 @@
 	margin-left: 15vw;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1440px) {
 	.section {
 		margin-right: 5vw;
+		margin-left: 5vw;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.section {
+		margin-right: 10vw;
 		margin-left: 5vw;
 	}
 }
@@ -46,7 +53,7 @@
 	font-weight: 700;
 	font-style: normal;
 	color: #A8C3C8;
-	padding-top: 17vh;
+	
 }
 
 .navbar {
@@ -95,6 +102,16 @@
 
 .btn-primary {
 	background: #3C5C62;
+	color: #ffffff;
+}
+
+.btn-primary:active {
+	background: #3C5C62 !important;
+	color: #ffffff;
+}
+
+.btn-primary:focus {
+	background: #3C5C62 !important;
 	color: #ffffff;
 }
 

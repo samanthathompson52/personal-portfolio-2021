@@ -17,7 +17,7 @@ const Header = () => {
         <Nav.Link href="#about">About Me</Nav.Link>
         <Nav.Link href="#project">Projects</Nav.Link>
         <Nav.Link href="#experience">Experience</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
+        {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
       </div>
     </div>
   </nav>

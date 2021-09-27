@@ -42,6 +42,7 @@
     color:lawngreen;
 }
 
+
 .header {
     display: flex;
     align-items: center;
@@ -104,12 +105,13 @@
    
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
     .test {
         width: 800px !important;
     } 
-    
+
+
 
 }
 
