@@ -3,6 +3,7 @@ import '../styles/Home.css';
 import Container from 'react-bootstrap/Container'
 
 const Home = () => {
+  console.log('hello world');
   return (
     
  <div>

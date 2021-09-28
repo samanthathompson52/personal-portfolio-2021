@@ -44,7 +44,7 @@ const Experience = () => {
                -
                 {' '}{selected.company}</span>
         
-            <div className = "dates">{selected.dates}</div>
+            <div className = "workdates">{selected.dates}</div>
             <div>
               <ul><h5>
                 {workBullets}

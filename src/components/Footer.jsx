@@ -4,6 +4,7 @@ import linkedin from '../pictures/linkedin.svg'
 import github from '../pictures/github.svg'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
+import '../styles/App.css';
 
 const Footer = () => {
     return(
@@ -20,7 +21,7 @@ const Footer = () => {
                 <a href="https://github.com/samanthathompson52" className = "links" target="_blank" rel="noopener noreferrer"><img src={github} width="30em" height="30em" alt="Github social media icon" /></a>
            </Row> 
            </Container>
-        <div className = "footer">
+        <div className = "designer">
             Designed and Created by Samantha Thompson
         </div>
         </div>

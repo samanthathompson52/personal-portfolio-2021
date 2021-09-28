@@ -63,13 +63,12 @@
 	font-size: 1.5rem;
 }
 
-.dates{
+.workdates{
 	font-family: open-sans, sans-serif;
 	color: #526d72;
 	font-weight: 500;
 	font-style: italic;
-	opacity: 100%; 
-    padding-bottom: 2vh;
+	padding-bottom: 2vh;
 }
 
 
