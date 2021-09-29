@@ -15,11 +15,12 @@ const AboutMe = () => {
             </div>
             </Col> 
             <Col xs={12} md={8} lg={9} className="d-flex align-items-start">
-              <div className = "px-4">  
+              <div className = "px-4">
                 <h4>About Me</h4>
-                <h5> Neurobiology & Physiology graduate searching for an opportunity to grow and discover new technology. </h5>
-                <h5> Throughout my undergraduate education I found myself gaining new experiences in clinical, research, and academia areas of biology. During this, I realized how much of an impact technology can have on healthcare and research.</h5>
-                <h5> It has become my passion to combine my knowledge of biology and computer science to create advancements to healthcare and science. Even after graduation, I am actively improving my own knowledge of programming.</h5>
+                <h5>Neurobiology & Physiology graduate searching for an opportunity to grow and discover new technology. </h5>
+                <h5>Throughout my undergraduate education I found myself gaining new experiences in clinical, research, and academia areas of biology. During this, I realized how much of an impact technology can have on healthcare and research!</h5>
+                <h5>I discovered that I loved programming through several of Purdue University's computer science courses. Since graduation, I have dedicated my time to learning even more about the growing technologies of the world.</h5>
+                <h5>Now, I wish to create something of my own and maybe help someone along the way.</h5>
                 <div className = "py-4"> 
                   <a href = "/Resume.pdf" target = "_blank"><button type="button" className="btn btn-primary raised btn-block">Resume</button></a>
                 </div>
