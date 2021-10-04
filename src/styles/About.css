@@ -32,11 +32,9 @@
 
 .bg-image-wedding {
 	background-image: url('../pictures/profile.png');
-
-  -ms-background-position-x: center;
-	-ms-background-position-y: bottom;
+  	-ms-background-position-x: center;
+	-ms-background-position-y: center;
 	background-position: center bottom;
-
-  background-size: cover;
+  	background-size: cover;
 	max-width: 1200px;
 }

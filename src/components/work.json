@@ -1,17 +1,28 @@
 [
     {
         "id": 1,
-        "company":"Getz Investigations",
-        "position":"Private Detective Assistant",
-        "dates":"November 2015 to Jan 2018; November 2020 to Present",
+        "company":"Software Developer",
+        "position":"Independent Consultant",
+        "dates":"June 2021 to Present",
         "description":[
-            "Conducted background checks, asset searches, analyzed surveillance videos, created invoices, mailed invoices to clients, and handled emails to ensure the office runs smoothly",
-            "Located and analyzed confidential information such as social security numbers, address history, and past criminal behavior to be used on the court of law.",
-            "Improved office production by creating new forms and documents using Microsoft Word and Excel."
+            "Coordinated meetings with clients to establish what they want in an application",
+            "Developed a professional website for a pediatrics office to provide healthcare information to patients",
+            "Configured GitHub actions to automatically redeploy sites to Firebase on commits to master."
         ]
     },
     {
         "id": 2,
+        "company":"Getz Investigations",
+        "position":"Private Detective Assistant",
+        "dates":"November 2015 to Jan 2018; November 2020 to Present",
+        "description":[
+            "Conducted background checks, asset searches, and analyzed surveillance videos to provide attorneys with information to be used in the court of law",
+            "Gathered property information from the Indiana Assessor to determine people's assets",
+            "Improved office production by creating new forms and documents using Microsoft Word and Excel"
+        ]
+    },
+    {
+        "id": 3,
         "company":"Twitch",
         "position":"Live Streamer",
         "dates":"March 2020 to present",
@@ -19,38 +30,38 @@
            "Marketed my channel increasing followers from 100 to 1,250 over six months",
            "Created a welcoming community that promotes a safe space for people to enjoy video games",
            "Delivered content multiple times a week gaining over 42,000 channel views",
-           "Designed custom overlays and graphics using Adobe Creative Studio"
-        ]
-    },
-    {
-        "id":3,
-        "company":"Purdue University",
-        "position":"Research Assistant",
-        "dates":"May 2018 to May 2019",
-        "description":[
-           "Studied the neuronal and behavioral changes in zebra fish when presented with a visual stimulus to invoke a response",
-           "Analyzed data using Python and FIGI to clearly understand the impact stimulates had on neural pathways.",
-           "Breed zebra fish with genetic mutations to see the effect in the optic nerve."
+           "Created custom overlays and graphics using Adobe Creative Studio"
         ]
     },
     {
         "id":4,
         "company":"Purdue University",
-        "position":"Student Office Staff",
-        "dates":"July 2018 to April 2020",
+        "position":"Research Assistant",
+        "dates":"May 2018 to May 2019",
         "description":[
-            "Organized and distributed recreational items and mail to residents while maintaining their privacy by protecting sensitive information.",
-            "Cared for residents needs with friendliness and tact to keep the resident hall operating."
+           "Studied the neuronal and behavioral changes in zebra fish when presented with a visual stimulus to invoke a response Studied the neuronal and behavioral changes in zebra fish when presented with a visual stimulus to invoke a response",
+           "Analyzed data using Python and FIGI to clearly understand the impact stimulates had on neural pathways",
+           "Bred zebra fish with genetic mutations to observe the effect in the optic nerve"
         ]
     },
     {
         "id":5,
         "company":"Purdue University",
+        "position":"Student Office Staff",
+        "dates":"July 2018 to April 2020",
+        "description":[
+            "Organized and distributed recreational items and mail to residents while maintaining their privacy and protecting sensitive information",
+            "Provided information to students and parents regarding life as a Purdue University student to improve their transition to Purdue"
+        ]
+    },
+    {
+        "id":6,
+        "company":"Purdue University",
         "position":"Summer Office Coordinator",
         "dates":"April 2019 to August 2019",
         "description":[
-            "Scheduled and organized 25 student office staff for staffing the front desk of three residential buildings at Purdue University.",
-            "Created mail systems for conference members that visited Purdue during the summer as well as organized the daily office activities."
+            "Scheduled and organized 25 student office staff for staffing the front desk of three residential buildings at Purdue University",
+            "Created mail systems for conference members that visited Purdue during the summer as well as organized the daily office activities"
         ]
     }
  

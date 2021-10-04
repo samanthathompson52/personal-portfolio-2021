@@ -47,15 +47,6 @@
     display: flex;
     align-items: center;
   }
-  
-  .header::after {
-    margin-top: 0px;
-    content: '';
-    flex: 1;
-    margin-left: 1rem;
-    height: 1px;
-    background-color: #000;
-  }
 
 .experience{
   font-family: 'Public Sans', sans-serif;
@@ -65,7 +56,7 @@
 
 .workdates{
 	font-family: open-sans, sans-serif;
-	color: #526d72;
+	color: #A8C3C8;
 	font-weight: 500;
 	font-style: italic;
 	padding-bottom: 2vh;
