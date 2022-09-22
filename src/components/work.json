@@ -34,19 +34,7 @@
         ]
     },
     {
-        "id": 4,
-        "company":"Twitch",
-        "position":"Live Streamer",
-        "dates":"March 2020 to present",
-        "description":[
-           "Marketed my channel increasing followers from 100 to 1,250 over six months",
-           "Created a welcoming community that promotes a safe space for people to enjoy video games",
-           "Delivered content multiple times a week gaining over 42,000 channel views",
-           "Created custom overlays and graphics using Adobe Creative Studio"
-        ]
-    },
-    {
-        "id":5,
+        "id":4,
         "company":"Purdue University",
         "position":"Research Assistant",
         "dates":"May 2018 to May 2019",
@@ -57,17 +45,7 @@
         ]
     },
     {
-        "id":6,
-        "company":"Purdue University",
-        "position":"Student Office Staff",
-        "dates":"July 2018 to April 2020",
-        "description":[
-            "Organized and distributed recreational items and mail to residents while maintaining their privacy and protecting sensitive information",
-            "Provided information to students and parents regarding life as a Purdue University student to improve their transition to Purdue"
-        ]
-    },
-    {
-        "id":7,
+        "id":5,
         "company":"Purdue University",
         "position":"Summer Office Coordinator",
         "dates":"April 2019 to August 2019",
