@@ -21,9 +21,9 @@ const Footer = () => {
                 <a href="https://github.com/samanthathompson52" className = "links" target="_blank" rel="noopener noreferrer"><img src={github} width="30em" height="30em" alt="Github social media icon" /></a>
            </Row> 
            </Container>
-        <div className = "designer">
-            Designed and Created by Samantha Thompson
-        </div>
+            <div className = "designer">
+                Designed and Created by Samantha Thompson
+            </div>
         </div>
     );
   }

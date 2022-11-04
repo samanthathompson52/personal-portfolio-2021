@@ -42,7 +42,6 @@
     color:lawngreen;
 }
 
-
 .header {
     display: flex;
     align-items: center;
@@ -132,6 +131,4 @@
     .experience{
         font-size: 2.3rem;
       }
-
- 
 }

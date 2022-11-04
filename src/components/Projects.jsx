@@ -54,8 +54,7 @@ const Projects = () => {
         </div>  
         </div>  
      </Container>
-  </div>
-
+    </div>
   );
 }
 
