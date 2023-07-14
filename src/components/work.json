@@ -5,9 +5,10 @@
         "position":"Software Developer",
         "dates":"Janurary 2022 to Present",
         "description":[
-            "Gathered requirements from clients and collaborated with a team of developers to create software worth $350,000 in an agile work environment",
-            "Refactored the company's time keeping software from a Windows Form app to a single page web application using Vue and SyncFusion",
-            "Maintained data integrity with concurrent users in a relational database using C# and SQL Server",
+            "Gathered requirements from clients and collaborated with a team of developers to create software for small to medium sized businesses in an agile work environment",
+            "Maintained and designed several normalized databases utilizing SQL Server to support data integrity",
+            "Refactored the company's time keeping software from a Windows Form app to a single page web application using Vue and SyncFusion user interface components",
+            "Orchestrated production release schedules and coordinated team members for seamless software deployments and on-time project delivery",
             "Improved the company's front-end and back-end templates to decrease the amount of development time needed for software creation"
         ]
     },
@@ -43,16 +44,5 @@
            "Analyzed data using Python and FIGI to clearly understand the impact stimulates had on neural pathways",
            "Bred zebra fish with genetic mutations to observe the effect in the optic nerve"
         ]
-    },
-    {
-        "id":5,
-        "company":"Purdue University",
-        "position":"Summer Office Coordinator",
-        "dates":"April 2019 to August 2019",
-        "description":[
-            "Scheduled and organized 25 student office staff for staffing the front desk of three residential buildings at Purdue University",
-            "Created mail systems for conference members that visited Purdue during the summer as well as organized the daily office activities"
-        ]
-    }
- 
+    } 
 ]
