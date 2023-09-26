@@ -135,12 +135,11 @@ a:hover{
 }
 
 @media only screen and (max-width: 600px) {
-.designer{
-	font-size: .8rem;
-}
+	.designer{
+		font-size: .8rem;
+	}
 
-.dot{
-	border: 0px;
-}
-
+	.dot{
+		border: 0px;
+	}
 }

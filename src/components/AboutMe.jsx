@@ -11,7 +11,7 @@ const AboutMe = () => {
         <Container fluid className="border-line py-4">
           <Row>    
             <Col md={4} lg={3} className="d-none d-md-block"> 
-            <div className="bg-image bg-image-wedding">
+            <div className="bg-image about-me-image">
             </div>
             </Col> 
             <Col xs={12} md={8} lg={9} className="d-flex align-items-start">
